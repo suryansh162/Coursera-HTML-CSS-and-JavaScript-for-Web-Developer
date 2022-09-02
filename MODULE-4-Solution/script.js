@@ -36,10 +36,10 @@ for (let i = 0; i < names.length; i++) {
   let firstLetter = names[i].charAt(0).toLowerCase();
 
   if (firstLetter === 'j') {
-    function byeSpeaker(names[i]);
+    byeSpeaker(names[i]);
   }
   else {
-   function helloSpeaker(names[i]);
+    helloSpeaker(names[i]);
   }
 }
 
